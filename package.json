@@ -1,0 +1,14 @@
+{
+    "name": "my-project",
+    "scripts": {
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.7.0",
+        "parcel": "^2.7.0"
+    },
+    "dependencies": {
+        "sass": "^1.55.0"
+    }
+}
