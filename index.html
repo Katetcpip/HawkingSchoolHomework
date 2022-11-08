@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Books</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="theme" id="theme">
+        <div class="header">
+            <button class="button" id="open-modal-button"> a new book...</button>
+            <button class="authors new-button" id="theme-button">Change theme</button>
+
+        </div>
+
+        <div id="add-modal" class="add-modal">
+            <div class="add-modal-content">
+                <div class="inner_form">
+                    <p class="authors"> Title</p>
+                    <input class="input" id="title" />
+                </div>
+
+                <div class="inner_form">
+                    <p class="authors"> Authors</p>
+                    <input class="input" id="authors" />
+                </div>
+
+                <div class="inner_form">
+                    <p class="authors"> Year</p>
+                    <input class="input" id="year" />
+                </div>
+
+                <div class="inner_form">
+                    <p class="authors"> Image link</p>
+                    <input class="input" id="link" />
+                </div>
+                <div class="forButtons">
+                    <button class="button buttonConfirm buttonMain" id="close-modal-button">Close</button>
+                    <button class="button buttonConfirm buttonMain" id="add-student-button">Add</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="change-modal" class="add-modal">
+            <div class="add-modal-content">
+                <div class="inner_form">
+                    <p class="authors"> Title</p>
+                    <input class="input" id="title2" />
+                </div>
+
+                <div class="inner_form">
+                    <p class="authors"> Authors</p>
+                    <input class="input" id="authors2" />
+                </div>
+
+                <div class="inner_form">
+                    <p class="authors"> Year</p>
+                    <input class="input" id="year2" />
+                </div>
+
+                <div class="inner_form">
+                    <p class="authors"> Image link</p>
+                    <input class="input" id="link2" />
+                </div>
+                <div class="forButtons">
+                    <button class="button buttonConfirm buttonMain" id="close-change-button">Close</button>
+                    <button class="button buttonConfirm buttonMain" id="newBook-button">Save</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="container" class="container">
+
+        </div>
+
+    </div>
+    <script src="script.js "></script>
+</body>
+
+</html>
